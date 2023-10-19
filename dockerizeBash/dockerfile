@@ -1,0 +1,5 @@
+FROM ubuntu
+COPY script.sh /app/
+WORKDIR /app
+
+CMD ["bash", "script.sh"]
